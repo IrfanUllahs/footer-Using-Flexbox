@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 400px;
+  background-color: rgb(184, 163, 138);
+}
+.footer {
+  background-color: rgb(32, 9, 48);
+  height: 550px;
+  padding: 33px 10px;
+}
+.footer-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.logo {
+  margin: 10px;
+}
+.logo h3 {
+  font-size: 30px;
+  font-family: "Caprasimo", serif;
+  letter-spacing: 1px;
+}
+.midBox ul {
+  display: flex;
+}
+.midBox ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+.midBox ul li a {
+  color: white;
+}
+.line {
+  height: 10px;
+  width: 200px;
+  background-color: yellow;
+}
+.underline-nav .line {
+  height: 2px;
+  width: 115px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+.underline-nav li {
+  margin-bottom: 0px;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Bakbak One", sans-serif;
+}
+.endBox {
+  display: flex;
+  align-items: center;
+}
+.endBox p {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.endBox button {
+  background-color: rgb(32, 9, 48);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.endBox button:hover {
+  background-color: rgb(56, 18, 83);
+}
+.footer-body {
+  height: 371px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 30px;
+}
+.leftbox {
+  width: 45%;
+  padding: 30px;
+}
+.leftbox {
+  width: 45%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.left-first-para {
+  font-size: 17px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.left-second-para {
+  font-size: 25px;
+  font-family: "Barlow", sans-serif;
+}
+
+.contacts {
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
+.contact-box {
+  display: flex;
+}
+.contact-box ul {
+  display: flex;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+.heading-list li a {
+  color: white;
+  font-size: 18px;
+}
+.contact-list a,
+button {
+  text-decoration: underline;
+  color: rgb(153, 142, 142);
+
+  font-size: 13px;
+  margin-left: 10px;
+}
+.contact-list a:hover {
+  color: rgb(226, 216, 216);
+}
+.contact-list button {
+  background-color: rgb(93, 18, 212);
+  border: none;
+  padding: 2px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contact-list button:hover {
+  background-color: rgb(124, 107, 150);
+  color: white;
+}
+.secondcopyright-para {
+  padding-left: 8px;
+}
+.rightbox {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+  padding: 30px;
+  flex-direction: column;
+}
+.rightbox-links {
+  display: flex;
+  justify-content: space-between;
+}
+.rightbox-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rightbox-heading h2 {
+  font-size: 17px;
+  font-family: "Bakbak One", sans-serif;
+}
+.rightbox-heading p {
+  color: rgb(153, 142, 142);
+
+  text-decoration: underline;
+  cursor: pointer;
+}
+.rightbox-heading p:hover {
+  color: rgb(227, 219, 219);
+
+  text-decoration: underline;
+  cursor: pointer;
+}
+.images img {
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 30px;
+}
